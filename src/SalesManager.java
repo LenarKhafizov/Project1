@@ -14,11 +14,11 @@ public class SalesManager {
         }
         return max;
     }
-    public int middle() {
-        int max = sales[0];
-        int min = sales[0];
-        int sum = 0;
-        for (int sale : sales) {
+    public long middle() {
+        long max = sales[0];
+        long min = sales[0];
+        long sum = 0;
+        for (long sale : sales) {
             sum += sale;
             if (sale > max) {
                 max = sale;
